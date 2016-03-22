@@ -95,6 +95,9 @@ nav .menu {
   overflow-x: auto;
   white-space: nowrap;
 }
+nav .menu::-webkit-scrollbar {
+  display: none;
+}
 nav .menu li {
   display: inline-block;
 }
